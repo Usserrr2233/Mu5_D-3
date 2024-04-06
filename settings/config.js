@@ -13,8 +13,8 @@ const embedSettings = {
 };
 
 const emojiSettings = {
-  ERROR: "<a:wrong:1158264214960488468>",
-  SUCCESS: "<a:check:1158261895111913554>",
+  ERROR: "❗",
+  SUCCESS: "✅>",
   disabled: "🔴",
   enabled: "🟢",
   cleared: "🧹",
@@ -84,9 +84,9 @@ const filters = {
 
 const links = {
   inviteURL: `https://discord.com/api/oauth2/authorize?client_id=BOTID&permissions=6508997968&scope=bot%20applications.commands`,
-  DiscordServer: `https://discord.gg/FuKfAREn9f`,
-  VoteURL: `https://discord.gg/FuKfAREn9f`,
-  Website: `https://jugnu.netlify.app/`,
+  DiscordServer: `https://discord.gg/`,
+  VoteURL: `https://discord.gg/`,
+  Website: `https://a.a/`,
 };
 
 const options = {
@@ -111,8 +111,8 @@ const numberEmojis = [
 ];
 
 const slashSettings = {
-  global: false,
-  guildIDS: ["903532162236694539"], // for slash command
+  global: true,
+  guildIDS: [""], // for slash command
 };
 
 module.exports = {
